@@ -4,6 +4,7 @@
   "description": "template node and typescript",
   "main": "index.js",
   "scripts": {
+    "start": "nodemon src/server.ts",
     "dev": "nodemon src/server.ts",
     "build": "sucrase ./src -d .dist --transforms typescript, imports",
     "commit": "cz"
