@@ -4,9 +4,6 @@ import 'dotenv/config'
 import mongoose from 'mongoose'
 
 import routes from './routes'
-
-console.log(process.env.MONGODB_URL)
-
 class App {
   public express: express.Application
 
